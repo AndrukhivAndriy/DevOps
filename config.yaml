@@ -1,0 +1,5 @@
+full_path_to_nginx_log: "nginx.log"
+full_path_to_export_csv_file: "converted.csv"
+access_token: "ghp_111111111111111111111111111111"
+repository_name: "AndrukhivAndriy/DevOps"
+branch: "main"
