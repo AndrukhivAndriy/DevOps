@@ -34,3 +34,5 @@ Find file *config.yaml*. Type your parameters:
   or
   
       python3 main.py
+
+You can find also nginx.log (as an example) and it's convertation to converted.csv. Nice viewer to see converted.csv you can find here [CSV viewer](https://www.convertcsv.com/csv-viewer-editor.htm)
