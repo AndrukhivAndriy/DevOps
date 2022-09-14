@@ -19,11 +19,11 @@ Find file *config.yaml*. Type your parameters:
   
   **full_path_to_export_csv_file: "converted.csv"**  -- instead **"converted.csv"** type path to csv file. It will be created. Live it, file will be created in the same directory as script main.py
   
-  **access_token: "ghp_b11111111111111111111111111"** -- Token to access GitHub. How to create it see - [Create personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+  **access_token: "ghp_b11111111111111111111111111"** -- token to access GitHub. How to create it see - [Create personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   
-  **repository_name: "USERNAME/REPO"**  --  Repository name in GitHub
+  **repository_name: "USERNAME/REPO"**  --  repository name in GitHub
   
-  **branch: "main"**  --  Branch name
+  **branch: "main"**  --  branch name
   
   ## Run script
   
