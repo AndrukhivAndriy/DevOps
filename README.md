@@ -39,8 +39,8 @@ Find file *config.yaml*. Type your parameters:
 
 The easiest way is to put files: *main.py, nginx.log, config.yaml, Dockerfile* into one folder on server, where Docker installed. 
 
-1. Build image: *docker build -t log_convert_csv .* (about 520MB)
-2. Run: **docker run -t -i --volume /path/where/folder/is/located/:/data/ log_convert_csv
+1. Build image: **docker build -t log_convert_csv .** (about 520MB)
+2. Run: **docker run -t -i --volume /path/where/folder/is/located/:/data/ log_convert_csv**
 
 ## P.S.
 
