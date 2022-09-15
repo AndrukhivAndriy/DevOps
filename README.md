@@ -35,6 +35,13 @@ Find file *config.yaml*. Type your parameters:
   
       python3 main.py
 
+## Run via Docker
+
+The easiest way is to put files: *main.py, nginx.log, config.yaml, Dockerfile* into one folder on server, where Docker installed. 
+
+1. Build image: *docker build -t log_convert_csv .* (about 520MB)
+2. Run: **docker run -t -i --volume /path/where/folder/is/located/:/data/ log_convert_csv
+
 ## P.S.
 
 You can find also nginx.log (as an example) and it's convertation to converted.csv. Nice viewer to see converted.csv you can find here [CSV viewer](https://www.convertcsv.com/csv-viewer-editor.htm)
